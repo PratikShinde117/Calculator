@@ -1,0 +1,127 @@
+*{
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 14px;
+    left: 35px;
+}
+
+
+.input{
+    height: 67px;
+    width: 253px;
+    border: 1px solid;
+    position: relative;
+    right: -2px;
+    top: 41px;
+    background: none;
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+    font-size: 34px;
+    background-color: rgb(84, 81, 81);
+    color: antiquewhite;
+    padding-inline: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.Btn{
+    height: 57px;
+    width: 56px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 205, 205);
+    cursor: pointer;
+}
+.Btns{
+    display: flex;
+    height: 123px;
+    width: 238px;
+    position: relative;
+    right: -25px;
+    top: 41px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 4px;
+    margin-top: 12px;
+    background: none;
+
+}
+
+.Btn1{
+    height: 57px;
+    width: 56px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    cursor: pointer;
+}
+.Btn2{
+    height: 57px;
+    width: 56px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: orange;
+  
+}
+.Btn3{
+    height: 57px;
+    width: 56px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+.hide{
+    display: none;
+}
+.Btn4{
+    height: 57px;
+    width: 56px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 205, 205);
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+}
+.sub{
+    height: 429px;
+    width: 290px;
+    border: 2px solid;
+    position: relative;
+    top: 12px;
+    right: 11px;
+    border-radius: 12px;
+    background-color: black;
+    box-shadow: 50px 0px 50px rgb(36, 35, 35);
+    
+}
+.Btn2:hover{
+   opacity: 0.5;
+}
+.Btn1:hover{
+    opacity: 0.5;
+ }
+ .Btn3:hover{
+    opacity: 0.5;
+ }
+ .Btn:hover{
+    opacity: 0.5;
+ }
